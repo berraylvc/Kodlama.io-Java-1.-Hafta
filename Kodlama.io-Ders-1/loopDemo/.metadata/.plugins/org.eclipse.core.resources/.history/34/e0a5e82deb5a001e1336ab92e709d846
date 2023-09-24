@@ -1,0 +1,26 @@
+package miniProjectMukemmelSayı;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//kendinden baska tam sayı bölenlerinin toplamı kendine esit olan sayıya mukemmel sayı denir.
+		//6-->1,2,3
+		//28->1,2,4,7,14
+		
+		int number = 5;
+		int total = 0;
+		
+		for(int i=1;1<number;i++) {
+			int remainder = number % i;
+			if (remainder==0) {
+				total = total + i;
+			}
+			
+		}
+		if (total == number) {
+			System.out.println(number+", mukemmel sayidir.");
+		}
+
+	}
+
+}

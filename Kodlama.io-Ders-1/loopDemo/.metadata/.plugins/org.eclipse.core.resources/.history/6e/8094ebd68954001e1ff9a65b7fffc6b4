@@ -1,0 +1,14 @@
+package miniprojeAsalSayı;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int number = 25;
+		for (int i=2;i<number;i++) {
+			int remainder = number % i;
+			  System.out.println(number + "Asay bir say değildir.");
+		}
+		
+	}
+
+}

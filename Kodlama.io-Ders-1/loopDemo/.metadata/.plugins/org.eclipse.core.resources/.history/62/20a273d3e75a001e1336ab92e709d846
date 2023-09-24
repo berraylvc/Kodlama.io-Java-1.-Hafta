@@ -1,0 +1,24 @@
+package miniProjectSesliHarfler;
+
+public class Main {
+
+	public static void main(String[] args) {
+		char harf = 'a';
+		
+		switch (harf){
+		case 'A':
+		case 'I':
+		case 'O':
+		case 'U':
+		case 'a':
+		case 'ı':
+		case 'o':
+		case 'u':
+			System.out.println("Kalin Sesli Harf");
+			break;
+			default:
+				System.out.println("Ince Sesli Harf");
+		}
+		}
+
+}

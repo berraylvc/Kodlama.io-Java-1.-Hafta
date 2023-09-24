@@ -1,0 +1,14 @@
+package miniprojeAsalSayı;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int number = 25;
+		for (i=1;i<number;i++);
+		  int remainder = number % i;
+		  if (remainder < 2);
+		  print (i);
+		
+	}
+
+}
